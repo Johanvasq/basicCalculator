@@ -1,0 +1,61 @@
+.cont {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid #3F403A;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    
+
+    font-family: 'Courier New';
+  }
+  label {
+      margin: 10px;
+  }
+  input {
+      border-radius: 10px;
+      border: 3px solid #3F403A;
+  }
+  input:focus{
+      border: 0px solid;
+      background-color: #D8D9C7;
+      border-radius: 7px;
+      padding-left: 10px;
+      outline: none;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  
+  
+  button {
+      margin: 4px;
+      width: 100px;
+      height: 50px;
+      background-color: #3F403A;
+      color: #D8D9C7;
+      border: 0;
+      border-radius: 10px;
+  }
+  button:hover{
+      background-color: #BFBFB0;
+      color: #727366;
+      transition-duration: 500ms;
+  }
+  
+  .buttons{
+  
+      position:relative;
+      /* align-items: center; */
+      display: flex;
+      margin: 0;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  h1, h3 {
+      font-weight: 700;
+      align-self: center;
+      justify-self: center;
+  } 

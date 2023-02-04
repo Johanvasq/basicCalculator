@@ -1,0 +1,25 @@
+<form
+  class="cont"
+  id="calcularresta"
+  [formGroup]="calculadoraform"
+  (ngSubmit)="calcularresta()"
+>
+  <h1>Restar</h1>
+  <div>
+    <label for="">Valor 1</label>
+    <input type="number" id="value1" formControlName="value1" />
+  </div>
+  <div>
+    <label for="">Valor 2</label>
+    <input type="number" id="value2" formControlName="value2" />
+  </div>
+  <div>
+    <h3>Resultado</h3>
+    <p>{{ resultadoresta }}</p>
+  </div>
+
+  <div class="buttons">
+    <button type="submit" form="calcularresta">Calcular</button>
+    <button type="reset">Limpiar</button>
+  </div>
+</form>

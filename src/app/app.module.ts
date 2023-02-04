@@ -1,16 +1,29 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalculatorComponent } from './components/calculator/calculator.component';
+import { SubstractionComponent } from './components/substraction/substraction.component';
+import { MultiplicationComponent } from './components/multiplication/multiplication.component';
+import { DivideComponent } from './components/divide/divide.component';
+import { ProductComponent } from './componenets/product/product.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalculatorComponent,
+    SubstractionComponent,
+    MultiplicationComponent,
+    DivideComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
