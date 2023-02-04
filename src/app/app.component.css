@@ -1,0 +1,15 @@
+.cont { 
+    width: 45%; 
+    height: 400px;
+    margin: 1%;
+    float: left; }
+
+@media screen and (max-width: 720px) {
+.cont { 
+        width: 90%; 
+        height: 400px;
+        margin: 5%; }
+      }
+
+
+      
